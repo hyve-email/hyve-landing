@@ -65,7 +65,12 @@ const Index = () => (
         <BigTitle>
           Privacy, <br /> on your own terms.
         </BigTitle>
-        <Subtitle>We help you manage your emails, while protecting your privacy from spammers, bots and phishers.</Subtitle>
+        <Subtitle>We help you manage your email privacy, while protecting you from spammers, bots and phishers.</Subtitle>
+        <h2 style={{color:"#FFF", fontFamily:"Cantata One", fontWeight:"500"}}>Sign up for <span style={{textDecoration:"underline"}}>early access</span> to the private beta!</h2>
+        <a href="https://gmail.us3.list-manage.com/subscribe?u=131e40b536b7522dc377d85b6&id=54fd5a4685" style={{hover:"cursor"}} target="_blank">
+        <button style={{color:"white", backgroundColor:"#6263D2", padding:"18px 40px", borderRadius:5, fontSize:"25px", fontWeight:"600",border:0}} className={".button-access"}>Get access</button>
+          </a>
+
       </Hero>
       <Projects offset={1}>
         <Title>What is hyve?</Title>
