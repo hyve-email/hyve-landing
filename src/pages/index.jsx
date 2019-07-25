@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Privacy, <br /> on your own terms.
         </BigTitle>
-        <Subtitle>We help you manage your emails, while protecting your privacy from spamers, bots and phishers.</Subtitle>
+        <Subtitle>We help you manage your emails, while protecting your privacy from spammers, bots and phishers.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>What is hyve?</Title>
