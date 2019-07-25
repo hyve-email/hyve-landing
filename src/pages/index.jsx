@@ -110,7 +110,7 @@ Y         ou can mask your current email address, and generate new anonymous one
         <AboutHero>
           <Avatar src={"https://res.cloudinary.com/biensupernice/image/upload/v1564008655/Hyve_m7tgek.png"} alt="John Doe" />
           <AboutSub>
-          “Now you can finally figure out who the real {<br/>}  Nigerian prince is out of all of the fakers!”{<br/>} - Anonymous User
+          Make unsubscribe, {<br/>} mean unsubscribe again.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
