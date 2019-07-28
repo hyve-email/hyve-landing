@@ -80,7 +80,7 @@ const Index = () => (
             // link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-Y         ou can mask your current email address, and generate new anonymous ones in order to separate who sees and shares your information.
+You can mask your current email address, and generate new anonymous ones in order to separate who sees and shares your information.
           </ProjectCard>
           <ProjectCard
             title="Secure"
