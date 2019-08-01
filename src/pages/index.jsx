@@ -65,12 +65,63 @@ const Index = () => (
         <BigTitle>
           Privacy, <br /> on your own terms.
         </BigTitle>
-        <Subtitle>We help you manage your email privacy, while protecting you from spammers, bots and phishers.</Subtitle>
-        <h2 style={{color:"#FFF", fontFamily:"Cantata One", fontWeight:"500"}}>Sign up for <span style={{textDecoration:"underline"}}>early access</span> to the private beta!</h2>
-        <a href="https://gmail.us3.list-manage.com/subscribe?u=131e40b536b7522dc377d85b6&id=54fd5a4685" style={{hover:"cursor"}} target="_blank">
-        <button style={{color:"white", backgroundColor:"#6263D2", padding:"18px 40px", borderRadius:5, fontSize:"25px", fontWeight:"600",border:0}} className={".button-access"}>Get access</button>
-          </a>
-
+        <Subtitle>
+          We help you manage your email privacy, while protecting you from spammers, bots and phishers.
+        </Subtitle>
+        <h2
+          style={{
+            color: '#FFF',
+            fontFamily: 'Cantata One',
+            fontWeight: '500',
+          }}
+        >
+          Sign up for <span style={{ textDecoration: 'underline' }}>early access</span> to the private beta!
+        </h2>
+        <a
+          href="https://gmail.us3.list-manage.com/subscribe?u=131e40b536b7522dc377d85b6&id=54fd5a4685"
+          style={{ hover: 'cursor' }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            style={{
+              color: 'white',
+              backgroundColor: '#6263D2',
+              padding: '18px 40px',
+              borderRadius: 5,
+              fontSize: '25px',
+              fontWeight: '600',
+              border: 0,
+              cursor: 'pointer',
+            }}
+            className=".button-access"
+          >
+            Get access
+          </button>
+        </a>
+        <a
+          href="https://chrome.google.com/webstore/detail/hyve-e-mail-privacy/pmkohgoneplpclboeehbkeigiemdaehh?utm_source=chrome-ntp-icon"
+          style={{ hover: 'cursor' }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            style={{
+              color: 'white',
+              backgroundColor: '#5282ff',
+              border: 0,
+              padding: '18px 40px',
+              borderRadius: 5,
+              fontSize: '25px',
+              fontWeight: '600',
+              marginLeft: 20,
+              cursor: 'pointer',
+            }}
+            className=".button-access"
+          >
+            Get Chrome extension
+          </button>
+        </a>
       </Hero>
       <Projects offset={1}>
         <Title>What is hyve?</Title>
@@ -80,21 +131,24 @@ const Index = () => (
             // link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-You can mask your current email address, and generate new anonymous ones in order to separate who sees and shares your information.
+            You can mask your current email address, and generate new anonymous ones in order to separate who sees and
+            shares your information.
           </ProjectCard>
           <ProjectCard
             title="Secure"
             // link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-          When an email address gets spammed, we can detect when it’s scammed. We use a powerful algorithm to authenticate emails, and note what emails are going to which inboxes and whether they seem risky.
+            When an email address gets spammed, we can detect when it’s scammed. We use a powerful algorithm to
+            authenticate emails, and note what emails are going to which inboxes and whether they seem risky.
           </ProjectCard>
           <ProjectCard
             title="Organized"
             // link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            We help you manage all of your inboxes in one place. You don’t have to tab to multiple websites and go through a slew of processes in order to check and filter emails anymore.
+            We help you manage all of your inboxes in one place. You don’t have to tab to multiple websites and go
+            through a slew of processes in order to check and filter emails anymore.
           </ProjectCard>
           <ProjectCard
             title="Easy"
@@ -108,20 +162,27 @@ You can mask your current email address, and generate new anonymous ones in orde
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={"https://res.cloudinary.com/biensupernice/image/upload/v1564008655/Hyve_m7tgek.png"} alt="John Doe" />
-          <AboutSub>
-          Make unsubscribe, {<br/>} mean unsubscribe again.
-          </AboutSub>
+          <Avatar
+            src="https://res.cloudinary.com/biensupernice/image/upload/v1564008655/Hyve_m7tgek.png"
+            alt="John Doe"
+          />
+          <AboutSub>Make unsubscribe, {<br />} mean unsubscribe again.</AboutSub>
         </AboutHero>
         <AboutDesc>
-        Hyve was created with the intent to make the internet a more secure place. With companies having data breaches left and right, and personal data regularly being used as a marketing asset, we decided it was our duty to fight back. Emails seemed like the best place to start. They are the keystone to so many of our accounts and personal information. Our goal with Hyve is to help secure your emails, and make it irresistibly easy to do.
+          Hyve was created with the intent to make the internet a more secure place. With companies having data breaches
+          left and right, and personal data regularly being used as a marketing asset, we decided it was our duty to
+          fight back. Emails seemed like the best place to start. They are the keystone to so many of our accounts and
+          personal information. Our goal with Hyve is to help secure your emails, and make it irresistibly easy to do.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Build your Hyve!</Title>
           <ContactText>
-          You can find us at: <a href="https://www.twitter.com/hyveemail" target="_blank">@HyveEmail</a>
+            You can find us at:{' '}
+            <a href="https://www.twitter.com/hyveemail" rel="noopener noreferrer" target="_blank">
+              @HyveEmail
+            </a>
           </ContactText>
         </Inner>
       </Contact>
